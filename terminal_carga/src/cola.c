@@ -1,19 +1,38 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "cola.h"
 
+//Esto se mantiene simplemente como una lista enlazada simple.
+
+
 void init_cola(Cola *c) {
+    if (c == NULL) {
+        return;
+    }
+
     c->frente = NULL;
     c->final = NULL;
     c->tamano = 0;
 }
 
 int cola_vacia(Cola *c) {
+    if (c == NULL) {
+        return 1;
+    }
+
     return (c->frente == NULL);
 }
 
 void insertar_camion(Cola *c, Camion *camion) {
-    Nodo *nuevo = (Nodo *)malloc(sizeof(Nodo));
+    Nodo *nuevo;
+
+    if (c == NULL || camion == NULL) {
+        return;
+    }
+
+    nuevo = (Nodo *)malloc(sizeof(Nodo));
     if (nuevo == NULL) {
+        perror("Error al reservar memoria para un nodo de la cola");
         return;
     }
 
@@ -35,7 +54,7 @@ Camion *sacar_camion(Cola *c) {
     Nodo *temp;
     Camion *camion;
 
-    if (cola_vacia(c)) {
+    if (c == NULL || cola_vacia(c)) {
         return NULL;
     }
 
@@ -54,7 +73,7 @@ Camion *sacar_camion(Cola *c) {
 }
 
 Camion *primer_camion(Cola *c) {
-    if (cola_vacia(c)) {
+    if (c == NULL || cola_vacia(c)) {
         return NULL;
     }
 
@@ -62,8 +81,14 @@ Camion *primer_camion(Cola *c) {
 }
 
 void destruir_cola(Cola *c) {
-    Nodo *actual = c->frente;
+    Nodo *actual;
     Nodo *siguiente;
+
+    if (c == NULL) {
+        return;
+    }
+
+    actual = c->frente;
 
     while (actual != NULL) {
         siguiente = actual->sig;
