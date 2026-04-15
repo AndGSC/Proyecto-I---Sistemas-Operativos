@@ -7,7 +7,7 @@
  * Inserta un camión en la cola manteniendo el orden de prioridad.
  * Prioridad 5 = Perecederos (van primero).
  */
-void encolar_con_prioridad(Cola *cola, Camion *camion) {
+void anadir_a_cola_prioritaria(Cola *cola, Camion *camion) {
     if (cola == NULL || camion == NULL) return;
 
     // Nodo nuevo
@@ -50,6 +50,6 @@ void reinsertar_camion_rr(Cola *cola, Camion *camion) {
     if (cola == NULL || camion == NULL) return;
     pthread_mutex_lock(&mutex_cola);
     // Al reinsertar, mantenemos la prioridad
-    encolar_con_prioridad(cola, camion);
+    anadir_a_cola_prioritaria(cola, camion);
     pthread_mutex_unlock(&mutex_cola);
 }

@@ -5,7 +5,7 @@
 #include "camion.h"
 
 // Nueva función para manejar la prioridad de productos perecederos (Prioridad 5)
-void encolar_con_prioridad(Cola *cola, Camion *camion);
+void anadir_a_cola_prioritaria(Cola *cola, Camion *camion);
 
 Camion *planificar_fifo(Cola *cola);
 Camion *planificar_round_robin(Cola *cola);
