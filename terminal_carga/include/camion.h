@@ -38,3 +38,5 @@ void *rutina_camion(void *arg);
 
 /* Para convertir estado a texto */
 const char *estado_a_texto(EstadoCamion estado);
+
+#endif /* CAMION_H */

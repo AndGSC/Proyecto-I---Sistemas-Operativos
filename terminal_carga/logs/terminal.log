@@ -1,0 +1,172 @@
+=== INICIO DE SIMULACIÓN LOGÍSTICA ===
+Archivo generado el: 1776274915 (Segundos Epoch)
+------------------------------------------------
+[11:41:55] [SISTEMA] Camión 1 creado (Prioridad: 1, Burst: 10)
+[11:41:55] [SISTEMA] Camión 2 creado (Prioridad: 3, Burst: 5)
+[11:41:55] [SISTEMA] Camión 3 creado (Prioridad: 4, Burst: 7)
+[11:41:55] [SISTEMA] Camión 4 creado (Prioridad: 4, Burst: 10)
+[11:41:55] [SISTEMA] Camión 5 creado (Prioridad: 4, Burst: 10)
+[11:41:55] [SISTEMA] Camión 6 creado (Prioridad: 5, Burst: 3)
+[11:41:55] [SISTEMA] Camión 7 creado (Prioridad: 4, Burst: 8)
+[11:41:55] [SISTEMA] Camión 8 creado (Prioridad: 3, Burst: 9)
+[11:41:55] [SISTEMA] Camión 9 creado (Prioridad: 4, Burst: 2)
+[11:41:55] [SISTEMA] Camión 10 creado (Prioridad: 5, Burst: 5)
+[11:41:55] [ID: 1] Estado: LISTO - Llegó a la terminal (Carga: 10)
+[11:41:55] [ID: 1] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 1] Estado: EJECUCION - En muelle. Carga restante: 10
+[11:41:55] [ID: 2] Estado: LISTO - Llegó a la terminal (Carga: 5)
+[11:41:55] [ID: 2] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 2] Estado: EJECUCION - En muelle. Carga restante: 5
+[11:41:55] [ID: 3] Estado: LISTO - Llegó a la terminal (Carga: 7)
+[11:41:55] [ID: 3] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 3] Estado: EJECUCION - En muelle. Carga restante: 7
+[11:41:55] [ID: 4] Estado: LISTO - Llegó a la terminal (Carga: 10)
+[11:41:55] [ID: 4] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 5] Estado: LISTO - Llegó a la terminal (Carga: 10)
+[11:41:55] [ID: 5] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 6] Estado: LISTO - Llegó a la terminal (Carga: 3)
+[11:41:55] [ID: 6] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 7] Estado: LISTO - Llegó a la terminal (Carga: 8)
+[11:41:55] [ID: 7] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 8] Estado: LISTO - Llegó a la terminal (Carga: 9)
+[11:41:55] [ID: 8] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 9] Estado: LISTO - Llegó a la terminal (Carga: 2)
+[11:41:55] [ID: 9] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 10] Estado: LISTO - Llegó a la terminal (Carga: 5)
+[11:41:55] [ID: 10] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 1] Saliendo del muelle. Pendiente: 8
+[11:41:55] [ID: 1] Vuelve a la cola (Preemción).
+[11:41:55] [ID: 4] Estado: EJECUCION - En muelle. Carga restante: 10
+[11:41:55] [ID: 2] Saliendo del muelle. Pendiente: 3
+[11:41:55] [ID: 2] Vuelve a la cola (Preemción).
+[11:41:55] [ID: 5] Estado: EJECUCION - En muelle. Carga restante: 10
+[11:41:55] [ID: 3] Saliendo del muelle. Pendiente: 5
+[11:41:55] [ID: 3] Vuelve a la cola (Preemción).
+[11:41:55] [ID: 6] Estado: EJECUCION - En muelle. Carga restante: 3
+[11:41:55] [ID: 1] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 2] Estado: BLOQUEADO - Esperando muelle...
+[11:41:55] [ID: 3] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 4] Saliendo del muelle. Pendiente: 8
+[11:41:56] [ID: 4] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 7] Estado: EJECUCION - En muelle. Carga restante: 8
+[11:41:56] [ID: 5] Saliendo del muelle. Pendiente: 8
+[11:41:56] [ID: 5] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 8] Estado: EJECUCION - En muelle. Carga restante: 9
+[11:41:56] [ID: 6] Saliendo del muelle. Pendiente: 1
+[11:41:56] [ID: 6] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 9] Estado: EJECUCION - En muelle. Carga restante: 2
+[11:41:56] [ID: 4] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 5] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 6] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 8] Saliendo del muelle. Pendiente: 7
+[11:41:56] [ID: 7] Saliendo del muelle. Pendiente: 6
+[11:41:56] [ID: 10] Estado: EJECUCION - En muelle. Carga restante: 5
+[11:41:56] [ID: 7] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 8] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 1] Estado: EJECUCION - En muelle. Carga restante: 8
+[11:41:56] [ID: 9] Saliendo del muelle. Pendiente: 0
+[11:41:56] [ID: 9] Estado: TERMINADO - Simulación terminada.
+[11:41:56] [ID: 2] Estado: EJECUCION - En muelle. Carga restante: 3
+[11:41:56] [ID: 7] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 8] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 1] Saliendo del muelle. Pendiente: 6
+[11:41:56] [ID: 1] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 3] Estado: EJECUCION - En muelle. Carga restante: 5
+[11:41:56] [ID: 10] Saliendo del muelle. Pendiente: 3
+[11:41:56] [ID: 2] Saliendo del muelle. Pendiente: 1
+[11:41:56] [ID: 10] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 2] Vuelve a la cola (Preemción).
+[11:41:56] [ID: 5] Estado: EJECUCION - En muelle. Carga restante: 8
+[11:41:56] [ID: 4] Estado: EJECUCION - En muelle. Carga restante: 8
+[11:41:56] [ID: 1] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 10] Estado: BLOQUEADO - Esperando muelle...
+[11:41:56] [ID: 2] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 3] Saliendo del muelle. Pendiente: 3
+[11:41:57] [ID: 3] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 6] Estado: EJECUCION - En muelle. Carga restante: 1
+[11:41:57] [ID: 5] Saliendo del muelle. Pendiente: 6
+[11:41:57] [ID: 5] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 4] Saliendo del muelle. Pendiente: 6
+[11:41:57] [ID: 4] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 7] Estado: EJECUCION - En muelle. Carga restante: 6
+[11:41:57] [ID: 8] Estado: EJECUCION - En muelle. Carga restante: 7
+[11:41:57] [ID: 3] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 5] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 4] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 6] Saliendo del muelle. Pendiente: 0
+[11:41:57] [ID: 6] Estado: TERMINADO - Simulación terminada.
+[11:41:57] [ID: 1] Estado: EJECUCION - En muelle. Carga restante: 6
+[11:41:57] [ID: 8] Saliendo del muelle. Pendiente: 5
+[11:41:57] [ID: 8] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 10] Estado: EJECUCION - En muelle. Carga restante: 3
+[11:41:57] [ID: 7] Saliendo del muelle. Pendiente: 4
+[11:41:57] [ID: 7] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 2] Estado: EJECUCION - En muelle. Carga restante: 1
+[11:41:57] [ID: 7] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 8] Estado: BLOQUEADO - Esperando muelle...
+[11:41:57] [ID: 1] Saliendo del muelle. Pendiente: 4
+[11:41:57] [ID: 1] Vuelve a la cola (Preemción).
+[11:41:57] [ID: 3] Estado: EJECUCION - En muelle. Carga restante: 3
+[11:41:57] [ID: 2] Saliendo del muelle. Pendiente: 0
+[11:41:57] [ID: 2] Estado: TERMINADO - Simulación terminada.
+[11:41:57] [ID: 5] Estado: EJECUCION - En muelle. Carga restante: 6
+[11:41:57] [ID: 1] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 10] Saliendo del muelle. Pendiente: 1
+[11:41:58] [ID: 10] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 4] Estado: EJECUCION - En muelle. Carga restante: 6
+[11:41:58] [ID: 10] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 3] Saliendo del muelle. Pendiente: 1
+[11:41:58] [ID: 3] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 7] Estado: EJECUCION - En muelle. Carga restante: 4
+[11:41:58] [ID: 5] Saliendo del muelle. Pendiente: 4
+[11:41:58] [ID: 5] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 8] Estado: EJECUCION - En muelle. Carga restante: 5
+[11:41:58] [ID: 3] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 5] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 4] Saliendo del muelle. Pendiente: 4
+[11:41:58] [ID: 4] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 1] Estado: EJECUCION - En muelle. Carga restante: 4
+[11:41:58] [ID: 4] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 7] Saliendo del muelle. Pendiente: 2
+[11:41:58] [ID: 7] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 10] Estado: EJECUCION - En muelle. Carga restante: 1
+[11:41:58] [ID: 8] Saliendo del muelle. Pendiente: 3
+[11:41:58] [ID: 8] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 3] Estado: EJECUCION - En muelle. Carga restante: 1
+[11:41:58] [ID: 7] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 8] Estado: BLOQUEADO - Esperando muelle...
+[11:41:58] [ID: 1] Saliendo del muelle. Pendiente: 2
+[11:41:58] [ID: 10] Saliendo del muelle. Pendiente: 0
+[11:41:58] [ID: 5] Estado: EJECUCION - En muelle. Carga restante: 4
+[11:41:58] [ID: 10] Estado: TERMINADO - Simulación terminada.
+[11:41:58] [ID: 4] Estado: EJECUCION - En muelle. Carga restante: 4
+[11:41:58] [ID: 3] Saliendo del muelle. Pendiente: 0
+[11:41:58] [ID: 3] Estado: TERMINADO - Simulación terminada.
+[11:41:58] [ID: 1] Vuelve a la cola (Preemción).
+[11:41:58] [ID: 7] Estado: EJECUCION - En muelle. Carga restante: 2
+[11:41:58] [ID: 1] Estado: BLOQUEADO - Esperando muelle...
+[11:41:59] [ID: 5] Saliendo del muelle. Pendiente: 2
+[11:41:59] [ID: 4] Saliendo del muelle. Pendiente: 2
+[11:41:59] [ID: 8] Estado: EJECUCION - En muelle. Carga restante: 3
+[11:41:59] [ID: 4] Vuelve a la cola (Preemción).
+[11:41:59] [ID: 5] Vuelve a la cola (Preemción).
+[11:41:59] [ID: 1] Estado: EJECUCION - En muelle. Carga restante: 2
+[11:41:59] [ID: 7] Saliendo del muelle. Pendiente: 0
+[11:41:59] [ID: 7] Estado: TERMINADO - Simulación terminada.
+[11:41:59] [ID: 4] Estado: BLOQUEADO - Esperando muelle...
+[11:41:59] [ID: 4] Estado: EJECUCION - En muelle. Carga restante: 2
+[11:41:59] [ID: 5] Estado: BLOQUEADO - Esperando muelle...
+[11:41:59] [ID: 8] Saliendo del muelle. Pendiente: 1
+[11:41:59] [ID: 8] Vuelve a la cola (Preemción).
+[11:41:59] [ID: 1] Saliendo del muelle. Pendiente: 0
+[11:41:59] [ID: 1] Estado: TERMINADO - Simulación terminada.
+[11:41:59] [ID: 5] Estado: EJECUCION - En muelle. Carga restante: 2
+[11:41:59] [ID: 8] Estado: BLOQUEADO - Esperando muelle...
+[11:41:59] [ID: 8] Estado: EJECUCION - En muelle. Carga restante: 1
+[11:41:59] [ID: 4] Saliendo del muelle. Pendiente: 0
+[11:41:59] [ID: 4] Estado: TERMINADO - Simulación terminada.
+[11:41:59] [ID: 8] Saliendo del muelle. Pendiente: 0
+[11:41:59] [ID: 8] Estado: TERMINADO - Simulación terminada.
+[11:42:00] [ID: 5] Saliendo del muelle. Pendiente: 0
+[11:42:00] [ID: 5] Estado: TERMINADO - Simulación terminada.
+=== FIN DE SIMULACIÓN ===
